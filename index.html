@@ -3,73 +3,31 @@
 <head>
   <title>Julie's story</title>
   <meta charset="utf-8">
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152813606-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-152813606-1');
-  </script>
-
-
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <h1><a href="index.html">Julie's story</a></h1>
-  <ol>
-    <li><a href="travel.html">Travel</a></li>
-    <li><a href="study.html">Study</a></li>
-    <li><a href="books.html">Books</a></li>
-    <li><a href="art.html">Art</a></li>
-  </ol>
-  <ul>
-    <li>여행</li>
-    <li>공부</li>
-    <li>책</li>
-    <li>공연</li>
-  </ul>
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-  <!-- LiveRe City install code -->
-  <div id="lv-container" data-id="city" data-uid="MTAyMC80NzU5My8yNDA5Mw==">
-  	<script type="text/javascript">
-     (function(d, s) {
-         var j, e = d.getElementsByTagName(s)[0];
-
-         if (typeof LivereTower === 'function') { return; }
-
-         j = d.createElement(s);
-         j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-         j.async = true;
-
-         e.parentNode.insertBefore(j, e);
-     })(document, 'script');
-  	</script>
-  <noscript> Please activate JavaScript for write a comment in LiveRe</noscript>
+  <div id="grid">
+    <ol>
+      <li><a href="travel.html" class="saw" id="active">Travel</a></li>
+      <li><a href="study.html" class="saw">Study</a></li>
+      <li><a href="books.html">Books</a></li>
+      <li><a href="art.html">Art</a></li>
+    </ol>
+    <div id="article">
+      <h2>Julie's story</h2>
+      <p>
+      It is sunny today.<br>
+      I want to <strong>go</strong> outside and can breathe in the fresh air.<br>
+      This is sample source for
+      <a href="https://www.w3.org/TR/html52/textlevel-semantics.html#textlevel-semantics"
+         target = "_blank"
+         title = "html w3c link">Html.</a>
+      </p>
+    </div>
   </div>
-  <!-- completed City install code -->
-
-
-
-
-  <h2>Julie's <strong>story</strong></h2>
-
-  <p>
-  It is sunny today.<br>
-  I want to go outside and can breathe in the fresh air.<br>
-  This is sample source for
-  <a href="https://www.w3.org/TR/html52/textlevel-semantics.html#textlevel-semantics"
-     target = "_blank"
-     title = "html w3c link">Html.</a>
-  </p>
-  <img src="everyone-can-code.jpg", width="40%">
-
-
   <!--Start of Tawk.to Script-->
   <script type="text/javascript">
   var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -83,7 +41,5 @@
   })();
   </script>
   <!--End of Tawk.to Script-->
-
-
 </body>
 </html>
